@@ -15,19 +15,17 @@ using Newtonsoft.Json.Linq;
 
 namespace Gw2MumbleLink
 {
-    public class Class1
-    {
+    public class MainClass
+	{
+		// Number of inches per meter
+		const float InchesPerMeter = 39.37010F;
 
+		//
+		static MemoryMappedFile mappedFile;
+		static MemoryMappedViewAccessor accessor;
+		static LinkedMem data = new LinkedMem();
+		static PlayerInfo playerInfo = new PlayerInfo();
 	}
-
-	// Number of inches per meter
-	const float InchesPerMeter = 39.37010F;
-
-	//
-	static MemoryMappedFile mappedFile;
-	static MemoryMappedViewAccessor accessor;
-	static LinkedMem data = new LinkedMem();
-	static PlayerInfo playerInfo = new PlayerInfo();
 
 	public unsafe struct LinkedMem
 	{
@@ -57,7 +55,7 @@ namespace Gw2MumbleLink
 		public double playerRotationY = 0;
 	}
 
-	private static class GlobalVars
+	static class GlobalVars
 	{
 		public static int currentMap = 0;
 		public static int mLeft;
@@ -82,5 +80,4 @@ namespace Gw2MumbleLink
 		public string playerRotation { get; set; }
 		public string mapName { get; set; }
 	}
-}
 }
