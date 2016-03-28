@@ -1,3 +1,5 @@
 obj
 /Gw2MumbleLink/bin
 /packages
+/node-test/bin
+/node-test/*.dll
