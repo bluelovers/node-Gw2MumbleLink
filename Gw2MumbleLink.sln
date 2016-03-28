@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gw2MumbleLink", "Gw2MumbleLink\Gw2MumbleLink.csproj", "{8EE4AE9A-54A1-4B86-8752-B2B266ECC472}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gw2MumbleLink", "Gw2MumbleLink\Gw2MumbleLink.csproj", "{D286A782-85A1-4932-BC64-3657DFE91033}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "node-test", "node-test\node-test.njsproj", "{CAF8CBF1-BAF4-48EB-8BA3-DF9E882095A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8EE4AE9A-54A1-4B86-8752-B2B266ECC472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EE4AE9A-54A1-4B86-8752-B2B266ECC472}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EE4AE9A-54A1-4B86-8752-B2B266ECC472}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EE4AE9A-54A1-4B86-8752-B2B266ECC472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D286A782-85A1-4932-BC64-3657DFE91033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D286A782-85A1-4932-BC64-3657DFE91033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D286A782-85A1-4932-BC64-3657DFE91033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D286A782-85A1-4932-BC64-3657DFE91033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF8CBF1-BAF4-48EB-8BA3-DF9E882095A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF8CBF1-BAF4-48EB-8BA3-DF9E882095A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF8CBF1-BAF4-48EB-8BA3-DF9E882095A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
