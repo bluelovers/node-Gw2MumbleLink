@@ -15,7 +15,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gw2MumbleLink
 {
-    public class MainClass
+    public partial class MainClass
 	{
 		// Number of inches per meter
 		const float InchesPerMeter = 39.37010F;
@@ -25,6 +25,12 @@ namespace Gw2MumbleLink
 		static MemoryMappedViewAccessor accessor;
 		static LinkedMem data = new LinkedMem();
 		static PlayerInfo playerInfo = new PlayerInfo();
+
+	    public async Task<object> test(dynamic input)
+	    {
+			return playerInfo;
+		}
+
 	}
 
 	public unsafe struct LinkedMem
